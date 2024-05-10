@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <h4><%= title %></h4>
+    <% if (lamps.length > 0) { %>
+      <ul>
+        <% for (const lamp of lamps) { %>
+          <li>
+            Lamp: <%= lamp.description %>
+          </li>
+        <% } %>
+      </ul>
+    <% } else { %>
+      <p>No lamps found.</p>
+    <% } %>
+  </body>
+</html>

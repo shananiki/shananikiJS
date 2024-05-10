@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'TFTWindows';
+    src: url('fonts/TFTWindows.ttf') format('truetype');
+}
+
+body {
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+t {
+    font-family: "TFTWindows";
+    color: #FFFFFF;
+    margin: 2px;
+}
+
+
+c {
+    font-family: "TFTWindows";
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.box-header {
+    font-family: "TFTWindows";
+    color: #00FF54;
+    font-size: 16px;
+    margin: 2px 5px 2px 2px;
+}
+
+.container {
+    display: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    display: row;
+    background-color: #101010;
+    padding: 2px 2px 2px 2px;
+}
+
+.status-ok {
+    --body-text-shadow: 0 0 20px #ffffff4a, 0 0 20px #00ffab45;
+    --green-text-shadow: 0 0 20px #08bd9882;
+    --letter-shadow: drop-shadow(0 0 0.75rem rgba(20, 220, 187, 0.35));
+    --firefox-body-shadow: 0 0 20px #ffffff31, 0 0 20px #00ffab45;
+    --firefox-green-shadow: 0 0 20px #08bd994f;
+    image-rendering: pixelated;
+    -webkit-font-smoothing: none;
+    font-family: "perfect dos vga 437 win";
+    color: #36fda0;
+    text-shadow: 0 0 20px #36fda0;
+}

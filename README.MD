@@ -1,0 +1,1 @@
+npm install dotenv express path fs mysql2 ejs
